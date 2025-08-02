@@ -1,10 +1,10 @@
-# 🤖 AI Chatbot with OpenAI, FastAPI, and Frontend
+#  AI Chatbot with OpenAI, FastAPI, and Frontend
 
 This is a simple end-to-end chatbot application using the OpenAI API as the LLM engine. The backend is built with FastAPI and the frontend is a lightweight HTML/JavaScript interface.
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 ChatBoatProject/
@@ -22,7 +22,7 @@ ChatBoatProject/
 
 ---
 
-## 🧠 Features
+##  Features
 
 - Chat with OpenAI’s GPT-3.5 model
 - FastAPI backend to handle messages
@@ -31,7 +31,7 @@ ChatBoatProject/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -56,7 +56,7 @@ Create a `.env` file in the root directory:
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-> 🔐 Do **not** share this API key.
+>  Do **not** share this API key.
 
 ---
 
@@ -74,7 +74,7 @@ Visit the interactive API docs at:
 
 ### 4. Run the frontend
 
-#### ✅ Option A: Open directly
+####  Option A: Open directly
 
 Navigate to:
 
@@ -84,7 +84,7 @@ chatbot/frontend/index.html
 
 Right-click and **Open in Browser**.
 
-#### ✅ Option B: Serve with Python
+####  Option B: Serve with Python
 
 ```bash
 cd chatbot/frontend
@@ -109,7 +109,7 @@ Then visit: [http://localhost:5500](http://localhost:5500)
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Make sure your backend and frontend are running on the same machine for local testing.
 - The CORS policy in FastAPI is configured to allow all origins (dev mode).
@@ -117,7 +117,7 @@ Then visit: [http://localhost:5500](http://localhost:5500)
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 - Python 3.10+
 - FastAPI
@@ -127,13 +127,13 @@ Then visit: [http://localhost:5500](http://localhost:5500)
 
 ---
 
-## 📦 Deployment Ideas
+##  Deployment Ideas
 
 - Backend: Render, Railway, Heroku, or Azure App Service
 - Frontend: Netlify, Vercel, GitHub Pages (for static assets)
 
 ---
 
-## 🛡️ License
+## 🛡 License
 
 This project is for educational/demo purposes. Use responsibly and protect your API key.
