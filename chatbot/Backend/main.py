@@ -34,3 +34,17 @@ async def chat_endpoint(req: ChatRequest):
         return {"reply": response.choices[0].message.content}
     except Exception as e:
         return {"error": str(e)}
+
+@app.post("/chat-amharic")
+async def chat_amharic(req: ChatRequest):
+    try:
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "አማርኛ ቋንቋ ብቻ ውስጥ እንዲስማማ እና እንዲመልስ ያደርጉ።"},
+                {"role": "user", "content": req.message}
+            ]
+        )
+        return {"reply": response.choices[0].message.content}
+    except Exception as e:
+        return {"error": str(e)}

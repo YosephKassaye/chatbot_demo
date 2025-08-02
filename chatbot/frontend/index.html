@@ -9,6 +9,16 @@
 <body>
   <div class="chatbox">
     <div id="chatWindow" class="chat-window"></div>
+
+    <!-- Language Selector Dropdown -->
+    <div style="margin-bottom: 10px;">
+      <label for="languageSelect"><b>Language:</b></label>
+      <select id="languageSelect">
+        <option value="en">English</option>
+        <option value="am">Amharic (አማርኛ)</option>
+      </select>
+    </div>
+
     <input type="text" id="userInput" placeholder="Type your message...">
     <button onclick="sendMessage()">Send</button>
   </div>
